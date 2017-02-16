@@ -1,6 +1,7 @@
 # Deterministic Finite Automaton Converter
 
 Takes the specification for a Non-Deterministic Finite Automata (NFA) as input and outputs the specification for an equivalent Deterministic Finite Automata (DFA).The NFA input specification will be passed as a command line argument and be of the following form:
+    tab
   Line 1: A list of states, Q, separated by tabs.
   Line 2: A list of symbols Σ, separated by tabs. The string E will not be explicitly included.
   Line 3: The start state, q<sub>0</sub> ∈ Q.
