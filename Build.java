@@ -204,7 +204,6 @@ public class Build {
                             }
                         }
                     }
-                    visited.clear();
                 }
 
                 visited.clear();
